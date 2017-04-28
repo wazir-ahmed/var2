@@ -1,7 +1,7 @@
 # var2
 **var2** is a platform which connects programs/devices which talk differenet protocols. As the current state, it supports HTTP and MQTT. The project aims to add support to CoAP and other popular application layer protocols in the future.
 
-# Installing 
+# Building
 As the current state, the project is only built and tested under Linux systems. But this doesn't mean that you cannot build the project in Windows. Please check the prerequisites before trying.
 
 ### Prerequisites
@@ -9,8 +9,7 @@ As the current state, the project is only built and tested under Linux systems. 
 - libuv v1.x | For installing libuv, visit [libuv's GitHub repository](https://github.com/libuv/libuv).
 - Node.js v4.6.0+
 - npm v2.15.9+
-
-### Building
+  
 Download the code from [the GitHub repository](https://github.com/wazahm/var2).
 
 To build the `var2-core`, run: 
@@ -53,6 +52,11 @@ Due to some reasons, the **url / topic** which HTTP/MQTT clients deals with shou
 - url - `123/456`
 - url - `123/456/789`
 
+# Documentation
+The project is still in its initial stage. We'll try to document everything ASAP.
+
+# Contribution
+We appreciate all forms of contributions. Check out the issues which are still open in [the GitHub repository](https://github.com/wazahm/var2). 
 
 
 
