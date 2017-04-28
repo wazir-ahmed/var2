@@ -56,12 +56,4 @@ Due to some reasons, the **url / topic** which HTTP/MQTT clients deals with shou
 The project is still in its initial stage. We'll try to document everything ASAP.
 
 # Contribution
-We appreciate all forms of contributions. Check out the issues which are still open in [the GitHub repository](https://github.com/wazahm/var2). 
-
-
-
-
-
-
-
-
+We appreciate all forms of contributions. Check out the issues which are still open and not assigned in [the GitHub repository](https://github.com/wazahm/var2). 
