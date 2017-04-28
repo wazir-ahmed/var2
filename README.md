@@ -1,5 +1,5 @@
 # var2
-**var2** is a platform which connects programs/devices which talk differenet protocols. As the current state, it supports HTTP and MQTT. The project aims to add support to CoAP and other popular application layer protocols in the future.
+**var2** is a platform which connects programs which talk differenet protocols. As the current state, it supports HTTP and MQTT. The project aims to add support to CoAP and other popular application layer protocols in the future.
 
 # Building
 As the current state, the project is only built and tested under Linux systems. But this doesn't mean that you cannot build the project in Windows. Please check the prerequisites before trying.
