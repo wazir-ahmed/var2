@@ -1,0 +1,12 @@
+{
+  "name": "v2-test",
+  "version": "0.0.1",
+  "description": "Testing modules for var2",
+  "dependencies": {
+    "mqtt": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=4.6.0"
+  },
+  "license": "MIT"
+}

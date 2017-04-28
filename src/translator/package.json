@@ -1,0 +1,12 @@
+{
+  "name": "v2-translator",
+  "version": "0.0.1",
+  "description": "Translator modules for var2",
+  "dependencies": {
+    "mosca": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=4.6.0"
+  },
+  "license": "MIT"
+}
