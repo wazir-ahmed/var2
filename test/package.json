@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Testing modules for var2",
   "dependencies": {
-    "mqtt": "^2.6.2"
+    "mqtt": "^2.6.2",
+    "coap": "^0.21.0"
   },
   "engines": {
     "node": ">=4.6.0"
