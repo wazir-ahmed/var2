@@ -1,5 +1,5 @@
 # var2
-**var2** is a platform which connects programs which talk different protocols. As the current state, it supports HTTP and MQTT. The project aims to add support to CoAP and other popular application layer protocols in the future.
+**var2** is a platform which connects programs which talk different protocols. As the current state, it supports HTTP, MQTT and CoAP. The project aims to add support to other popular application layer protocols in the future.
 
 # Building
 As the current state, the project is only built and tested under Linux systems. But this doesn't mean that you cannot build the project in Windows. Please check the prerequisites before trying.
@@ -29,12 +29,13 @@ npm install
 To start the **var2**, run the following binary and Node.js files:
 - `var2` in the directory `src/`
 - `http-server.js` in the directory `src/translator/`
+- `coap-server.js` in the directory `src/translator/`
 - `mqtt-broker.js` in the directory `src/translator/`
 
-Connect some HTTP and MQTT clients with appropriate server and broker and publish, subscribe, GET and POST data.
+Connect some HTTP, CoAP or MQTT clients with appropriate servers and publish, subscribe, GET and POST data.
 
 ### NOTE
-Due to some reasons, the **url / topic** which HTTP/MQTT clients deals with should only be a ***number of range 0 to 2147483647***. Alphabets and symbols should not be used in url / topic.
+Due to some reasons, the **url / topic** which HTTP/CoAP/MQTT clients deals with should only be a ***number of range 0 to 2147483647***. Alphabets and symbols should not be used in url / topic.
 
 **Acceptable Usage**
 - topic - `123456`
